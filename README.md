@@ -1,4 +1,18 @@
-# Getting Started with Create React App
+# News Aggregator App
+
+This project uses gnews.io API's to fetch the latest news and display current weather data based on users geolocation using https://openweathermap.org/api
+
+The project provides top-headlines and news based on users selected language and users can also search for news based on topics
+
+## Screenshots
+
+![alt text](https://github.com/Abhishekcec/local-news/blob/main/src/screenshots/screenshot2.PNG)
+
+news dashboard
+
+![alt text](https://github.com/Abhishekcec/local-news/blob/main/src/screenshots/newsAppScreenshot.PNG)
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -6,7 +20,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `yarn start`
+### `npm start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -14,12 +28,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `yarn test`
+### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `yarn build`
+### `npm build`
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
