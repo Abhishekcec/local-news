@@ -1,0 +1,21 @@
+.published{
+    text-align: right;
+    margin: 0px;
+    color: #2c3e50;
+}
+h3{
+    margin: 0px;
+    color: #2c3e50;
+}
+td{
+    width: 50%;
+    margin: 0px
+}
+img{
+    width: 90%;
+    height: auto;
+    float: left;
+}
+tr{
+    color: #2c3e50;
+}

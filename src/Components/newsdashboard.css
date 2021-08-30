@@ -1,0 +1,28 @@
+#appName{
+    color: white;
+    text-align: left;
+}
+.searchBar{
+    color: white;
+}
+h2{
+    text-align: left;
+    color: white;
+}
+.newsComponent{
+    height: 100vh;
+    height: 80vh;
+    overflow-Y: auto;
+}
+.weatherReport{
+    text-align: right;
+    color: white;
+}
+.weatherHeading{
+    margin-top: 2%;
+    margin-bottom: 0%;
+    color: white;
+}
+.weatherData{
+    margin-top: 0%;
+}

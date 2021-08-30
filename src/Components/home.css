@@ -1,0 +1,16 @@
+.home{
+    margin: 18%;
+}
+.heading{
+    font-size: 50px;
+    color: white;
+}
+.btn{
+    border-radius: 25px;
+    border: none;
+    background-color: #ff6a00;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    padding: 1%;
+}

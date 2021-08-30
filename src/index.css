@@ -5,6 +5,28 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background: #22c1c3;  
+background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);  
+background: linear-gradient(to right, #fdbb2d, #22c1c3);  */
+
+/* background: #396afc;  
+background: -webkit-linear-gradient(to right, #2948ff, #396afc);  
+background: linear-gradient(to right, #2948ff, #396afc); */
+
+/* background: #00C9FF;  
+background: -webkit-linear-gradient(to right, #92FE9D, #00C9FF);  
+background: linear-gradient(to right, #92FE9D, #00C9FF); */
+
+/* background: #d9a7c7; 
+background: -webkit-linear-gradient(to right, #fffcdc, #d9a7c7); 
+background: linear-gradient(to right, #fffcdc, #d9a7c7); */
+
+background: #2c3e50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3498db, #2c3e50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3498db, #2c3e50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
 }
 
 code {
