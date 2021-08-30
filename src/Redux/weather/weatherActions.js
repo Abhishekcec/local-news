@@ -4,12 +4,12 @@ import {
     FETCH_WEATHER_SUCCESS,
     FETCH_WEATHER_FAILURE
 } from './weatherTypes'
-
+const API_KEY = process.env.REACT_APP_WEATHER_API_KEY;
 export const fetchWeather = (latitude, longitude) => {
   return (dispatch) => {
     dispatch(fetchWeatherRequest())
     axios
-      .get(`http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=5793757229b715cd912a57c38b356e39`)
+      .get(`http://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&appid=${API_KEY}`)
       .then(response => {
         // response.data is the users
         const weather = response.data

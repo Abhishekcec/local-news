@@ -75,12 +75,12 @@ function NewsDashboard(props){
   }, [])
 
   const classes = useStyles();
-
+  const API_KEY = process.env.REACT_APP_NEWS_API_KEY;
   //fetch top headlines initially in local language
   const getNews = () => {
     localStorage.setItem('searchTerm', "")
     localStorage.setItem('lang',"")
-    axios.get(`https://gnews.io/api/v4/top-headlines?lang=ml&token=8f775830e7ff86e9914eb8a2948221fb`)
+    axios.get(`https://gnews.io/api/v4/top-headlines?lang=ml&token=${API_KEY}`)
     .then(response=>{
         setNewsData(response.data.articles)
     })
@@ -92,7 +92,7 @@ function NewsDashboard(props){
   const getSearchedNews = () => {
     const lang = localStorage.getItem("lang") ? localStorage.getItem("lang") : "ml"
     const searchTerm = localStorage.getItem("searchTerm") ? localStorage.getItem("searchTerm") : ""
-    axios.get(`https://gnews.io/api/v4/top-headlines?q=${searchTerm}&lang=${lang}&token=8f775830e7ff86e9914eb8a2948221fb`)
+    axios.get(`https://gnews.io/api/v4/top-headlines?q=${searchTerm}&lang=${lang}&token=${API_KEY}`)
     .then(response=>{
         console.log("news: ", response);
         setNewsData(response.data.articles)
